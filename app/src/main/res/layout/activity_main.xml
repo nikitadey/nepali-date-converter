@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.nikita.nepalidateconverter.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etxtNepaliYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nepali Year"/>
+    <EditText
+        android:id="@+id/etxtNepaliMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Month"
+        android:inputType="date"/>
+    <EditText
+        android:id="@+id/etxtNepaliDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Day"
+        android:inputType="date"/>
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="convert"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/txtEnglishYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"/>
+</LinearLayout>
