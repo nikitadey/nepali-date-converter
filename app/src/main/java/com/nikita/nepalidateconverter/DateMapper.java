@@ -27,7 +27,7 @@ public class DateMapper {
 
     final int startingEngDay = 13;
 
-    final int dayOfWeek = Calendar.SATURDAY; // 1944/1/1 is Saturday
+    final int dayOfWeek = Calendar.SATURDAY; // 1918/04/13 is Saturday
 
 
     // minimum nepali date supported for conversion (y, m, d)
